@@ -1,0 +1,242 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marat/McSim-Cycle-accurate-NoC/obj
+[  1%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/common_functions.cpp.o
+[  2%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/console_parse_show.cpp.o
+[  4%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/definition.cpp.o
+[  5%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/main.cpp.o
+[  6%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/platform.cpp.o
+[  8%] Building CXX object CMakeFiles/mcsim-ca-noc.dir/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx.o
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:10,
+                 from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:28:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   28 |                         const string& runnableId, const string& runnableName,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:28:57: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   28 |                         const string& runnableId, const string& runnableName,
+      |                                                         ^~~~~~
+      |                                                         stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:29:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   29 |                         const string& taskName, const string& taskId, unsigned int idInTask,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:29:55: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   29 |                         const string& taskName, const string& taskId, unsigned int idInTask,
+      |                                                       ^~~~~~
+      |                                                       stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:32:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   32 |                         const string& runnableId) = 0;
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:33:50: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   33 |         virtual dcMappingLocation mapLabel(const string& labelId,
+      |                                                  ^~~~~~
+      |                                                  stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:34:55: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   34 |                         unsigned long int time, const string& labelName) = 0;
+      |                                                       ^~~~~~
+      |                                                       stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:35:63: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   35 |         virtual void switchMode(unsigned long int time, const string& newModeFile,
+      |                                                               ^~~~~~
+      |                                                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:36:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   36 |                         const string& newModeName) = 0;
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:39:40: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   39 |         virtual void addCoreType(const string& coreType, double energyMultiplier,
+      |                                        ^~~~~~
+      |                                        stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:43:46: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   43 |         virtual void addProcessingCore(const string& name, int x, int y,
+      |                                              ^~~~~~
+      |                                              stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:44:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   44 |                         const string& coreType, unsigned int clockRatio,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:46:57: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   46 |                         double staticEnergyValue, const string& staticEnergyUnit,
+      |                                                         ^~~~~~
+      |                                                         stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:51:35: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   51 |         virtual void setApp(const string& appFile) = 0;
+      |                                   ^~~~~~
+      |                                   stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicI.hxx:55:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   55 |                         const string& runnableId) = 0;
+      |                               ^~~~~~
+      |                               stdin
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:24:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   24 |                         const string& runnableId, const string& runnableName,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:24:57: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   24 |                         const string& runnableId, const string& runnableName,
+      |                                                         ^~~~~~
+      |                                                         stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:25:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   25 |                         const string& taskName, const string& taskId, unsigned int idInTask,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:25:55: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   25 |                         const string& taskName, const string& taskId, unsigned int idInTask,
+      |                                                       ^~~~~~
+      |                                                       stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:27:59: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   27 |         void runnableMapped(unsigned long int time, const string& runnableId);
+      |                                                           ^~~~~~
+      |                                                           stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:28:42: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   28 |         dcMappingLocation mapLabel(const string& labelId, unsigned long int time,
+      |                                          ^~~~~~
+      |                                          stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:29:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   29 |                         const string& labelName);
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:30:55: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   30 |         void switchMode(unsigned long int time, const string& newModeFile,
+      |                                                       ^~~~~~
+      |                                                       stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:31:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   31 |                         const string& newModeName);
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:34:32: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   34 |         void addCoreType(const string& coreType, double energyMultiplier,
+      |                                ^~~~~~
+      |                                stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:38:38: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   38 |         void addProcessingCore(const string& name, int x, int y,
+      |                                      ^~~~~~
+      |                                      stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:39:31: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   39 |                         const string& coreType, unsigned int clockRatio,
+      |                               ^~~~~~
+      |                               stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:41:57: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   41 |                         double staticEnergyValue, const string& staticEnergyUnit,
+      |                                                         ^~~~~~
+      |                                                         stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:46:27: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   46 |         void setApp(const string& appFile);
+      |                           ^~~~~~
+      |                           stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:49:61: error: ‘string’ does not name a type; did you mean ‘stdin’?
+   49 |         void completeRunnable(unsigned long int time, const string& runnableId);
+      |                                                             ^~~~~~
+      |                                                             stdin
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:17:40: error: no declaration matches ‘dreamcloud::platform_sclib::dcMappingHeuristicI::dcMappingLocation dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::mapRunnable(long unsigned int, const string&, const string&, const string&, const string&, unsigned int, unsigned int)’
+   17 | dcMappingHeuristicI::dcMappingLocation dcMappingHeuristicKahlidDC::mapRunnable(
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:23:27: note: candidate is: ‘virtual dreamcloud::platform_sclib::dcMappingHeuristicI::dcMappingLocation dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::mapRunnable(long unsigned int, const int&, const int&, const int&, const int&, unsigned int, unsigned int)’
+   23 |         dcMappingLocation mapRunnable(unsigned long int time,
+      |                           ^~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:159:40: error: no declaration matches ‘dreamcloud::platform_sclib::dcMappingHeuristicI::dcMappingLocation dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::mapLabel(const string&, long unsigned int, const string&)’
+  159 | dcMappingHeuristicI::dcMappingLocation dcMappingHeuristicKahlidDC::mapLabel(
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:28:27: note: candidate is: ‘virtual dreamcloud::platform_sclib::dcMappingHeuristicI::dcMappingLocation dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::mapLabel(const int&, long unsigned int, const int&)’
+   28 |         dcMappingLocation mapLabel(const string& labelId, unsigned long int time,
+      |                           ^~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:194:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::addCoreType(const string&, double, double, double, int, std::map<double, double>, int)’
+  194 | void dcMappingHeuristicKahlidDC::addCoreType(const string& coreType,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:34:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::addCoreType(const int&, double, double, double, int, std::map<double, double>, int)’
+   34 |         void addCoreType(const string& coreType, double energyMultiplier,
+      |              ^~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:199:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::addProcessingCore(const string&, int, int, const string&, unsigned int, unsigned int, unsigned int, double, const string&, double, int)’
+  199 | void dcMappingHeuristicKahlidDC::addProcessingCore(const string& name, int x,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:38:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::addProcessingCore(const int&, int, int, const int&, unsigned int, unsigned int, unsigned int, double, const int&, double, int)’
+   38 |         void addProcessingCore(const string& name, int x, int y,
+      |              ^~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:205:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::switchMode(long unsigned int, const string&, const string&)’
+  205 | void dcMappingHeuristicKahlidDC::switchMode(unsigned long int time,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:30:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::switchMode(long unsigned int, const int&, const int&)’
+   30 |         void switchMode(unsigned long int time, const string& newModeFile,
+      |              ^~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:208:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::setApp(const string&)’
+  208 | void dcMappingHeuristicKahlidDC::setApp(const string& appFile) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:46:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::setApp(const int&)’
+   46 |         void setApp(const string& appFile);
+      |              ^~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:210:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::completeRunnable(long unsigned int, const string&)’
+  210 | void dcMappingHeuristicKahlidDC::completeRunnable(unsigned long int time,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:49:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::completeRunnable(long unsigned int, const int&)’
+   49 |         void completeRunnable(unsigned long int time, const string& runnableId);
+      |              ^~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:213:6: error: no declaration matches ‘void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::runnableMapped(long unsigned int, const string&)’
+  213 | void dcMappingHeuristicKahlidDC::runnableMapped(unsigned long int time,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx:7:
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:27:14: note: candidate is: ‘virtual void dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC::runnableMapped(long unsigned int, const int&)’
+   27 |         void runnableMapped(unsigned long int time, const string& runnableId);
+      |              ^~~~~~~~~~~~~~
+/home/marat/McSim-Cycle-accurate-NoC/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.hxx:19:7: note: ‘class dreamcloud::platform_sclib::dcMappingHeuristicKahlidDC’ defined here
+   19 | class dcMappingHeuristicKahlidDC: public dcMappingHeuristicI {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/mcsim-ca-noc.dir/build.make:146: CMakeFiles/mcsim-ca-noc.dir/src/platform/proc/dreamcloud/commons/mapping_heuristic/dcMappingHeuristicKhalidDC.cxx.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/mcsim-ca-noc.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+Cleaning
+Running cmake
+['cmake', '..', '-DCMAKE_BUILD_TYPE=Release']
+cmake done
+Running make
+['make']
+Bulding FAILED

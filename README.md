@@ -2,7 +2,7 @@
 
 ## Симуляторы
 Ниже приведены ссылки на проекты, которые можно использовать и модифицировать:
-1. [NoCTweak](https://sourceforge.net/projects/noctweak/files/v0.9.3/noctweak-v0.9.3.tar.gz/download).
+1. [NoCTweak](https://sourceforge.net/projects/noctweak/files/v0.9.3/noctweak-v0.9.3.tar.gz/download)
 2. [McSim-Cycle-accurate-NoC](https://github.com/DreamCloud-Project/McSim-Cycle-accurate-NoC)
 
 ## Работа с Ubuntu
